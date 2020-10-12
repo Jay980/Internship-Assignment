@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    input.invalid {
+      border: 2px solid red;
+      text-shadow: 0 0 3px #FF0000, 0 0 5px #FF0000; 
+    }
+    .container{
+      margin: auto;
+      display: block;
+      width: 30%;
+      border: 2px solid black;
+      padding: 10px 20px;
+      margin-top: 50px;
+    }
+    h1{
+      text-align: center;
+    }
+    #topic{
+      font-size: 19px;
+    }
+    .group{
+      background-color: black;
+      color:white;
+      margin-left: 40px;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      padding: 50px 40px;
+      text-align: center;
+      align-items: center;
+      margin-right: 120px;
+      font-size: 20px;
+      width: 350px;
+    }
+    button{
+      font-size: 20px;
+        padding:5px 20px;
+        margin-top: 12px;
+        margin-left: 200px;
+
+    }
+    input{
+      padding-top: 9px;
+      margin-top: 18px;
+      font-size: 22px;
+     font-weight: 30px;
+   }
+    
+   
+    .para{
+      font-weight:bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 >Assignment 3</h1>
+    <p id="topic">Create three input box and named it as Min, Max and Mul respectively and also create one Button
+      named it as "Validate".</p>
+      <h3>Requirements:</h3>
+      <p class="para"> 1] Create three input boxes and named it as Min, Max and Mul respectively.  </p>
+      <p class="para">  2] Create a button and named it as "Validate".</p>
+      <p class="para"> 3] Following conditions on the input box should get satisfied.</p>
+     <span class="para"> 1) Min &#60 Max <br>
+	                        2) Mul &#60 Max <br>
+	                        3) Mul &#60= Min <br>
+	                        4) Min and Mul should be the factor of Max.<br></span>
+          <div class="group">  
+            <!-- creating label and input boxes                    -->
+            <label for="min" style="font-size: 30px;">Min</label>
+            <input type="number" id="min" name="min">
+            <br>
+            <label for="max" style="font-size: 30px;">Max</label>
+            <input type="number" id="max" name="max">
+            <br>
+            <label for="mul" style="font-size: 30px;">Mul</label>
+            <input type="number" id="mul" name="mul">
+            <br>
+            <!-- creating button for validation check -->
+            <button onclick="validate()">Validate</button>
+          </div>
+  </div>
+
+  <script src="Assignment3.3.js"></script>
+
+</body>
+
+</html>

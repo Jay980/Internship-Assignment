@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 8</title>
+    <style>
+        .container{
+            margin: auto;
+            display: block;
+            width: 40%;
+            font-family: cursive;
+            border: 2px solid black;
+            background-color: black;
+            color: white;
+            height: 600px;
+            padding: 50px 50px;
+            font-size: 18px;
+            border-radius: 20px;
+        }
+        .myform{
+            margin-top: 100px;
+            margin-left: 120px;
+            color: white;
+            font-size: 22px;
+        }
+      input text{
+          color: black;
+      }
+      .te{
+          padding: 10px 25px;
+          font-size: 22px;
+      }
+      #answer1{
+         margin-top: 40px;
+          margin-left: 50px;
+      }
+      #Answer{
+       font-size: 38px;
+       font-weight: bold;
+      }
+     #but {
+          margin-top: -5px;
+          padding: 20px 50px;
+          margin-left: 35px;
+          font-size: 22px;
+          font-family: cursive;
+          border: 2px solid black;
+          border-radius: 20px;
+      }
+      #but:hover{
+          font-size:  26px;
+          cursor: pointer;
+      }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+      <center>  <h1>Assignment 8</h1></center>
+        <p>Sword & Soldier Program
+            Requirement: 100 Soldiers stand in a circle in an order 1 to 100.No.1 has a sword.  So,no.1 soldiers kills the
+            next soldier (i.e. No.2) and gives the sword to the next soldier (i.e. No.3).  All the soldier do the same
+            until only 1 soldier survive who is not killed by anyone.</p>
+
+            <form action="" name="group" class="myform">
+                <label for="solider">Enter Number of Soldiers:::</label>
+                <input class="te" type="text" name="solider" id="solider">
+                <br>
+                <br>
+                <label for="swordp">Enter Sword Position :: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </label>
+                <input class="te" type="text" name="swordp" id="swordp"> <br> <br> 
+                <span id="answer1">Last Solider is :: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <output type='Number' id="Answer"></output> <br>
+                <br>
+                <input id="but"   type="button" value="Get Answer" onclick=Calculate()>
+            </form>
+    </div>
+</body>
+<script src="Assignment8.2.js"></script>    
+</html>

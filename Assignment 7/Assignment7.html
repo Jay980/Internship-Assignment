@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+
+     <style>
+         /* Styling of box class */
+         .box{
+             margin: auto;
+             display: block;
+             width: 50%;
+             font: bold;
+             font-size: 1.4rem;
+             border: 2px solid black ;
+             height: 700px;
+             padding: 10px 20px;
+             font-family: cursive;
+             background-color: darkgrey;
+             border-radius: 20px;
+         }
+        /* Styling of rectangle */
+        .rect{
+            height: 250px;
+            width: 500px;
+            background-color: Red;
+            position: absolute;
+                }
+        .container{
+            margin: auto;
+            display: block;
+            width: 50%;
+            margin-top: 100px;
+        }
+        
+/* if screen width less than 1300px then this styling will work */
+        @media (max-width:1400px) and (min-width:900px){
+          .rect{
+           display: none;
+               }
+               /* Styling of circle */
+            .circle{
+            margin-top:-20px;
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            background-color: yellow;
+            position: absolute;
+            left: auto;
+            margin-left: 29px;
+                    }
+            .container{
+                margin: auto;
+                display: block;
+                width: 50%;
+                margin-top: 50px;
+                margin-right: 100px;
+                      }
+            .box{
+                margin: auto;
+                display: block;
+                width: 50%;
+                font: bold;
+                font-size: 1.4rem;
+                border: 2px solid black ;
+                height: 700px;
+                padding: 10px 20px;
+                font-family: cursive;
+            }
+            }
+
+        /* if screen width less than 899px then this styling will work */
+    @media (max-width:899px) and (min-width:500px){
+        /* Styling of Traingle */
+    .traingle{
+    position: absolute;
+    margin-top: 0px;
+    width: 0;
+    height: 0;
+    margin-left: 62px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 75px solid green;}
+    .circle{
+        display: none;
+    }
+    .rect{
+        display: none;
+    }
+        } 
+     </style>
+</head>
+<body>
+        <div class="box">
+                <center><h1>Assignment 7</h1></center>
+                <h3>Requirements:</h3>
+                <p>1] Draw a red colored rectangle inside that rectangle draw a yellow colored 
+                    circle and inside that yellow colored circle draw a green colored triangle. <br>
+                2] On the change of browsers resolution (width and height) the rectangle is  
+                   changed to circle and the circle is changed to triangle.</p>
+     <span class="container">
+    <div class="rect"></div>
+    <div class="circle"></div>
+    <div class="traingle"></div>
+        </span>
+    </div>
+</body>
+</html>

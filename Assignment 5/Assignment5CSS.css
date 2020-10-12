@@ -1,0 +1,179 @@
+h1{
+    font-family: cursive;
+    margin-left: 650px;
+    margin-bottom: 30px;
+}
+.container{
+        display: flex;
+        flex-direction: row;
+        margin-left: 400px;
+        margin-top: -40px;
+        font-size: 18px;
+        font-family: cursive;
+}
+
+.tab1{
+    margin-left: 100px;
+    margin: 30px 40px;
+    margin-top: 75px;
+}
+.tab2{
+    margin-left: 100px;
+    margin: 30px 40px;
+}
+#Table1{
+    border-color: red;
+    margin-left: -100px;
+    margin-top: 20px;
+}
+#Table2{
+    border-color: Yellow;
+    margin-top: 63px;
+    margin-left: -40px;
+}
+#Player1Button{
+  padding: 20px 40px;
+  font-size: 18px;
+  font-family: cursive;
+  border-radius: 14px;
+  border-width: 5px;
+}
+#Player2Button{
+  padding: 20px 40px;
+  font-size: 18px;
+  font-family: cursive;
+  border-radius: 14px;
+  border-width: 5px;
+  border-color: Yellow;
+}
+#img1{
+  margin-left: 25px;
+ 
+}
+#img2{
+  margin-left: 25px;
+
+}
+.g1{
+margin-left: 500px;
+}
+.g2{
+margin-left: 300px;
+}
+
+#p1{
+font-size: 38px;
+font-family: cursive;
+margin-left: 600px;
+font-weight: bolder;
+margin-top: -80px;
+}
+#p2{
+font-size: 38px;
+font-family: cursive;
+margin-left: 390px;
+font-weight: bolder;
+margin-top: -80px;
+}
+.butimg{
+display: flex;
+flex-direction: row;
+margin-top: 30px;
+}
+/* Table1 Styling */
+#t25{
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
+padding-top: 40px;
+}
+#t24{
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
+padding-top: 40px;
+}
+#t23{
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
+padding-top: 40px;
+}
+#t22{
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
+padding-top: 40px;
+}
+#t21{
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
+padding-top: 40px;
+}
+#t20{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+#t11{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+#t10{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+#t1{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+/* Table 2 Styling */
+#tt25{
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
+padding-top: 40px;
+}
+#tt24{
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
+padding-top: 40px;
+}
+#tt23{
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
+padding-top: 40px;
+}
+#tt22{
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
+padding-top: 40px;
+}
+#tt21{
+padding-left: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
+padding-top: 40px;
+}
+#tt20{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+#tt11{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+#tt10{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+#tt1{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+td{
+border-width: 3px;
+}

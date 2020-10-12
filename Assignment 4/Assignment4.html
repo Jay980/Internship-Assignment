@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4</title>
+    <style>
+        .container {
+            display: block;
+            margin: auto;
+            width: 55%;
+            height: 60%;
+            background-color: rgb(8, 184, 175);
+            padding: 10px 20px;
+            border: 4px solid black;
+        }
+
+        .btn {
+            margin-left: 70px;
+            padding: 8px 22px;
+            font-weight: bolder;
+            font-family: cursive;
+            font-size: 20px;
+            border-radius: 15px;
+        }
+
+        #rotbtn {
+            margin-left: 225px;
+            padding: 8px 15px;
+            font-weight: bolder;
+            font-family: cursive;
+            font-size: 20px;
+            border-radius: 15px;
+        }
+
+        .btncont {
+            margin-left: 8rem;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1 id="heading">Javascript Assignment 4</h1>
+        <p id="topic">Create three different colored buttons (Red, Green, and Yellow) and one rotate button. On click of
+            the rotate button, color of the buttons should rotate clockwise.</p>
+            <h3>Requirements::</h3>
+        <p> 1] Create three buttons with red, green, yellow color respectively.</p>
+           <p> 2] Write a text on button according to their color.
+            For e.g.: If the color of button is "red", then the text should be "Red".</p>
+          <p>  3] Create one button named as "Rotate".</p>
+          <p>  4] On click of rotate button the color of three buttons should be changed. Like, the color of 2nd button should be changed to color of 1st button, 
+               the color of 3rd button should be changed to color of 2nd button, and the color 
+               of 1st button should be changed to color of 3rd button.</p>
+          <p> 5] Make sure with each click of rotate button, the colors should get rotated 
+               clockwise.</p>
+               <br><br>
+       
+        <div class="btncont">
+            <!-- creating buttons  -->
+            <input type="button" id="but1" value="Red" class="btn" style="background:red">
+            <input type="button" id="but2" value="Green" class="btn" style="background:green">
+            <input type="button" id="but3" value="Yellow" class="btn" style="background:yellow"><br><br>
+            <input type="button" id="rotbtn" value="Rotate" onclick="RotateFunction()">
+        </div>
+    </div>
+
+    <script src="Assignment4.2.js"></script>
+</body>
+
+</html>

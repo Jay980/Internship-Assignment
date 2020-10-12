@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          .container {
+               margin: auto;
+               display: block;
+               width: 60%;
+               background-color: black;
+               color: white;
+               height: 500px;
+               padding: 30px 45px;
+               border-radius: 18px;
+               font-family: cursive;
+          }
+
+          .para {
+               font-weight: bold;
+               font-size: 1.3rem;
+          }
+
+          .buttons {
+               padding: 3px 20px;
+               margin-top: 50px;
+               margin-bottom: 90px;
+               font-size: 1.6rem;
+               font-family: cursive;
+               margin-left: 15px;
+          }
+
+          #validate1 {
+               font-size: 1.8rem;
+               font-family: cursive;
+               margin-left: 45px;
+          }
+     </style>
+</head>
+
+<body>
+     <div class="container">
+          <center>
+               <h1>JavaScript Assignment No.6 </h1>
+          </center>
+          <br>
+          <p class="para"> Create three buttons with initial values "0" as text and one button as "Validate". </p>
+
+          <p class="para"> Requirement 1:  On the click of any of the three buttons, value of that particular button should 
+               be increased by 1.</p>
+          <p class="para"> Requirement 2:     On click of Validate button :
+               (I) The value of unclicked buttons (among three buttons) should get increased
+                    by 1.
+               (II) If all the three buttons are clicked, the value of oldest (first) clicked button 
+                      (among three buttons) should get increased by 1.   </p>
+          <br>
+          <form name="myform">
+               <center>
+                    <input type="button" id="but1" class="buttons" value="0"
+                         onclick="ButtonClickid(this.id, this.value)" />
+                    <input type="button" id="but2" class="buttons" value="0"
+                         onclick="ButtonClickid(this.id, this.value)" />
+                    <input type="button" id="but3" class="buttons" value="0"
+                         onclick="ButtonClickid(this.id, this.value)" />
+                    <input type="button" id="validate1" value="Validate" onclick="validate()" />
+               </center>
+          </form>
+     </div>
+     
+</body>
+<script src="Assignment6.2.js"></script>
+</html>
